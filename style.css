@@ -1,0 +1,57 @@
+.titre{
+    font-size: 27px;    
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+.lisure{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%; /* toute la hauteur de l'écran */
+    width: 5%; /* 5% de la largeur de l'écran */
+    background-color: rgb(145, 16, 16);
+    
+}
+
+
+body {
+    background-color: solid black;
+    background-position: center;
+
+    background-image: url("bkgd.jpg");
+    background-size: cover; /*Set the background image to cover the entire body */
+    background-repeat: repeat-y;
+}
+
+.border{
+    border: 2px solid red;
+    padding: 10px;
+}
+.shadow{
+    box-shadow: 5px 5px 5px gray;
+    padding: 20px;
+}
+
+.img{
+    width: 150px; 
+    height: 150px;
+    float: right;
+    width: 30%;
+}
+
+
+
+/* . pour une classe spécifique, sans . pour target TOUTES les sections */
+.section {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(255, 97, 97);
+    margin: 10px;
+    align-items: center;
+    float: right;
+    width: 30%;
+}
